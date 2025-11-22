@@ -1,4 +1,3 @@
-import DigitalClock from "./DigitalClock.jsx";
 import construction from "./assets/construct.gif";
 function App() {
   return (
