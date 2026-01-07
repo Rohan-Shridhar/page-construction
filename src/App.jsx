@@ -1,4 +1,4 @@
-import construction from "./assets/construct.gif";
+import construction from "./assets/construction.png";
 function App() {
   return (
     <>
