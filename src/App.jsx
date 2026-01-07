@@ -5,8 +5,7 @@ function App() {
     <>
       <div className="Container">
         <h1>Under Construction</h1>
-<img src={construct} alt="Under Construction" className="construction-gif" loading="eager" style={{ aspectRatio: '1 / 1' }}
-/>
+        <img src={construct} alt="Under Construction" className="construction-gif" loading="eager" style={{ aspectRatio: '1 / 1' }}/>
         <h1>We are creating something cool ⚙️</h1>
       </div>
     </>
