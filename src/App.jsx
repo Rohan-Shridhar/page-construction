@@ -4,7 +4,7 @@ function App() {
     <>
       <div className="Container">
         <h1>Under Construction</h1>
-        <img src={construction} alt="Under Construction" className="construction-gif" loading="eager" style="aspect-ratio: 1 / 1" />
+        <img src={construction} alt="Under Construction" className="construction-gif"/>
         <h1>We are creating something cool ⚙️</h1>
       </div>
     </>
