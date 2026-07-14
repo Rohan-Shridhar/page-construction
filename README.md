@@ -2,10 +2,13 @@
 
 <img src="https://img.shields.io/npm/d18m/@rohansm14/react-pages" />
 
-A lightweight React component library for common utility pages.
+*A lightweight React component library for common utility pages.*
+
 ---
 
-<img width="1920" height="1080" alt="Screenshot 2026-06-13 181715" src="https://github.com/user-attachments/assets/d1d5c3a5-3578-46aa-b32a-242fac07a239" />
+<img width="1892" height="956" alt="image (1)" src="https://github.com/user-attachments/assets/08c09f61-4ef1-4de0-b89f-a181d79d3a0f" />
+
+<img width="1890" height="960" alt="image" src="https://github.com/user-attachments/assets/a23a76ab-e14b-4b32-8523-fb875a8f8639" />
 
 
 ---
@@ -41,7 +44,7 @@ import { LostPage404 } from "@rohansm14/react-pages";
 
 ```jsx
 <LostPage404
-  bgcolor="#0f0f0f"
+  bgcolor="linear-gradient(135deg, #667eea, #764ba2, red)"
   color="#ffffff"
   title="Oops! Wrong Turn"
   message="The page you're looking for has vanished into the void."
@@ -70,12 +73,12 @@ import { Forbidden403 } from "@rohansm14/react-pages";
 
 ```jsx
 <Forbidden403
-  bgcolor="#0f0f0f"
+  bgcolor="linear-gradient(135deg, darkblue, blue, skyblue, skyblue, skyblue)"
   color="#ffffff"
-  title="Oops! Wrong Turn"
-  message="The page you're looking for has vanished into the void."
+  title="Aaah! Introuder Alert"
+  message="You are not alolowed to wonder in here. Get out!!"
   homelink="/home"
-  buttonmessage="Take me home"
+  buttonmessage="Retreat to home"
   buttonbgcolor="#6366f1"
   buttoncolor="#ffffff"
   scaleonhover={true}
@@ -86,7 +89,7 @@ import { Forbidden403 } from "@rohansm14/react-pages";
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `bgcolor` | `string` | `"#ffffff"` | Background color of the page |
+| `bgcolor` | `string` | `"#ffffff"` or `"linear-gradient(135deg, red, blue, green)"` | Background of the page |
 | `color` | `string` | `"#000000"` | Text color |
 | `scaleonhover` | `bool` | `false` | Enables a scale + translate animation on the 404 heading on hover |
 | `codesize` | `string` | `"4rem"` | Font size of the `404` code |
